@@ -128,8 +128,8 @@ class EpisodeTags(object):
             return 'dlmux'
         if self.netflix: 
             return self.netflix
-		if self.amazon:  
-			return self.amazon 
+        if self.amazon:  
+            return self.amazon 
         if self.itunes: 
             return self.itunes 
 
@@ -283,7 +283,7 @@ class EpisodeTags(object):
         match = self._get_match_obj(attr)
         return '' if not match else match.group()
 	
-	@property
+    @property
     def amazon(self):
         """
         Amazon tage found in name
