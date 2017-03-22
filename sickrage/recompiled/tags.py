@@ -11,10 +11,10 @@ resolution = [
 # Sources
 tv = re.compile(r'([sph]d).?tv|tv(rip|mux)', re.I)
 dvd = re.compile(r'(?P<hd>hd)?dvd(?P<rip>rip|mux)?', re.I)
-web = re.compile(r'(web(?P<type>rip|mux|hd|.?dl|\b))', re.I)
-bluray = re.compile(r'(blue?-?ray|b[rd](?:rip|mux))', re.I)
+web = re.compile(r'(web(?P<type>rip|mux|hd|.?dl|\b)|vodhd)', re.I)
+bluray = re.compile(r'(blue?-?ray|b[rd](?:rip|mux)|bd)', re.I)
 sat = re.compile(r'(dsr|satrip)', re.I)
-itunes = re.compile(r'itunes(hd|)', re.I)
+itunes = re.compile(r'itunes(hd|uhd|)', re.I)
 netflix = re.compile(r'netflix(hd|uhd|)', re.I)
 amazon = re.compile(r'amazon(hd|uhd|)', re.I)
 

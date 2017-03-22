@@ -276,12 +276,13 @@ class EpisodeTags(object):
     @property
     def netflix(self):
         """
-        Netflix tage found in name
+        Netflix tag found in name
         :return: an empty string if not found
         """
         attr = 'netflix'
         match = self._get_match_obj(attr)
         return '' if not match else match.group()
+
 	
     @property
     def amazon(self):
