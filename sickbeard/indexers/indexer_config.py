@@ -35,7 +35,7 @@ indexerConfig = {
         'icon': 'thetvdb16.png',
         'scene_loc': 'https://raw.githubusercontent.com/cytec/sickrage.github.io/master/scene_exceptions/scene_exceptions.json',
         'show_url': 'http://thetvdb.com/?tab=series&id=',
-        'base_url': 'http://tvdb.cytec.us/api/%(apikey)s/series/'
+        'base_url': 'https://www.glotz.info/api/%(apikey)s/series/'
     }
 }
 
